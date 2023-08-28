@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>My Basic Form</title>
+   <link rel="stylesheet" href="./thankyou.html">
+</head>
+<body>
+   <h1 style="text-align:center;">Newsletter Sign-Up</h1>
+   <form name="MyForm"  method="Post" action="thankyou.html">
+     <div style="text-align:center;">
+     <input type="text" name="fullname"  placeholder="Your name">
+     <input type="text" name="email"  placeholder="Your email">
+     <input type="number" name="number" maxlength="12" placeholder="Your phone number">
+     <input type="submit" name="submit"  value="Submit" onClick="javascript:return validateInputs();">
+    </div>
+   </form>
+
+<script src="./form.js"></script>
+</body>
+</html>
